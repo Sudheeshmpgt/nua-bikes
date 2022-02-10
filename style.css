@@ -1,0 +1,485 @@
+body{
+    margin:0;
+    padding:0;
+}
+.container{
+    background: rgba(248, 246, 246, 0.534);
+
+}
+.header{
+    
+    position:relative;
+    width:100%;
+    font-size: 10px;
+    font-family: Arial,Helvetica,sans-serif;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    justify-content: space-evenly;
+    align-items: center;
+     
+}
+.head{
+    height:55px;
+    width:180px;
+    text-align: center;
+    margin:0;
+    margin-top: 22px;
+   
+   
+   
+}
+.text{
+    font-size: 18px;
+    font-family: barlow-extralight,barlow,sans-serif;
+    color:grey;
+    font-style: normal;
+    font-language-override: normal;
+    text-decoration: none;
+   
+}
+.logo{
+    
+    margin-top: 0px;
+    padding:0;
+    height: 84px;
+}
+.second-container{
+    margin:0;
+width:100%;
+height: 500px;
+display:flex
+
+}
+.picture{
+    width:80%;
+    height:500px;
+    
+}
+.paragraph1{
+    width:50%;
+    height:500px;
+   float:right;
+    
+}
+.picture1{
+    margin-top: 110px;
+    margin-left: 80px;
+}
+.parahead{
+    margin-top:110px ;
+    letter-spacing: 0.1em;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-weight:100 ;
+    color: rgb(107, 103, 103);
+    font-weight: bold;
+    font-size: 30px;
+}
+.para1{
+    font-size: 24px;
+    color:grey;
+    line-height: 1.2em;
+    font-family: barlow-extralight,barlow,sans-serif;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 85px;
+}
+.b1-more{
+    margin-left: 175px;
+    margin-top: 40px;
+    padding:6px 36px;
+    border:1px solid black;
+    background-color: #FFFFFF;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-weight: 100;
+    font-size: 21px;
+    letter-spacing: 0.1em;
+
+}
+.third-container{
+width:100%;
+height: 1350px;
+display:flex;
+flex-direction: column;
+
+
+}
+.bikes{
+width:100%;
+height:700px;
+
+}
+.bikesheading{
+    margin-top: 100px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-size: 35px;
+    font-weight:lighter;
+}
+.bikesimage{
+    display:block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.frames{
+width:100%;
+height:650px;
+
+}
+.framesheading{
+    margin-top: 70px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-size: 35px;
+    font-weight:lighter;
+}
+.framesimage{
+    display:block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.gallery{
+    text-align: center;
+    letter-spacing: 0.05em;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-size: 35px;
+    font-weight:lighter;
+}
+.forth-container1{
+    width:100%;
+    height:810px;
+    display:inline-flex;
+    flex-wrap: wrap;
+    justify-content:space-around;  
+}
+
+.img1{
+    margin-top: 50px;
+    margin-left: 95px;
+    width:375px;
+    height:375px;  
+}
+.img2{
+    margin-top: 50px;
+    width:375px;
+    height:375px; 
+}
+.img3{
+    margin-top: 50px;
+    margin-right: 95px;
+    width:375px;
+    height:375px;   
+}
+.img4{
+    margin-top: 10px;
+    margin-left: 95px;
+    width:375px;
+    height:375px;  
+}
+.img5{
+    margin-top: 10px;
+    width:375px;
+    height:375px;
+}
+.img6{
+    margin-top: 10px;
+    margin-right: 95px;
+    width:375px;
+    height:375px;
+}
+.forth-container2{
+    width:100%;
+    height: 275px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.b2-loadmore{
+    padding:8px 32px;
+    border:1px solid black;
+    margin-top: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #FFFFFF;
+    font: normal normal normal 16px/20px proxima-n-w01-reg,proxima-n-w05-reg,sans-serif;
+    font-weight: 200;
+    font-size: 15px;
+}
+.feedback{
+   margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 35px;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-weight: lighter;
+    color: rgb(66, 66, 66);
+}
+.fifth-container{
+    width:100%;
+    height:530px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+.feedback1{
+    width:50%;
+    height:500px;
+   
+}
+.scroll1,.scroll2{
+    width:20%;
+    height:530px;
+   
+}
+.line1{
+    width:150px;
+    color:black;
+}
+.para2{
+    margin-top: 100px;
+    letter-spacing: 0.03em;
+    font-size: 22px;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color:rgba(0, 0, 0, 0.445);
+}
+.name{
+    margin-top: 135px;
+    margin-left: 495px;
+    letter-spacing: 0.01em;
+    font-size: 17px;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-weight: lighter;
+    font-style: italic;
+    color:rgba(0, 0, 0, 0.801);
+}
+.line2{
+    width:150px;
+    color:black;
+    margin-top: 100px;
+    border-top: 7px dotted;
+}
+.left{
+    margin-top: 90%;
+    margin-left:250px;
+    height:25px;
+}
+.right{
+    margin-top: 90%;
+    margin-left: -7px;
+    height:25px;
+}
+.sixth-container{
+    width:100%;
+    height:auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.subheading{
+    width:100%;
+    height:100px;
+}
+.nua-connection{
+    text-align: center;
+    font-size: 35px;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-weight: lighter;
+    color:rgba(0, 0, 0, 0.582);
+}
+.contact{
+    width:100%;
+    height:100px; 
+}
+.b3{
+    margin-left: 42%;
+    width: 200px;
+    height: 80px;
+    display:flex;
+    flex-direction: column;
+    
+}
+.email{
+    height:35px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
+.contactus{
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    letter-spacing: 0.1em;
+    color: #000000a2;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-size: 19px;
+    font-weight: 100;
+    margin-top:5px;
+}
+.icons{
+    width:100%;
+    height:39px;
+    display:flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+.instagram{
+    margin-left: 555px;
+}
+.youtube{
+    margin-right: 565px;
+}
+.address{
+    width:100%;
+    height:200px;
+    display:flex;
+    flex-direction: column;
+}
+.add1{
+    margin-top: 100px;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    font-family: barlow-extralight,barlow,sans-serif;
+}
+.add2{
+    margin-top:-10px ;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    font-family: barlow-extralight,barlow,sans-serif;
+}
+.add3{
+    margin-top:-10px ;
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    font-family: barlow-extralight,barlow,sans-serif;
+}
+.form{
+    width:63%;
+    height:235px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color:#ffff;
+}
+.formhead{
+    margin-left: 25px;
+    font-weight: bold;
+    font-size: 1.4em;
+}
+
+.information{
+    display:flex;
+    justify-content: right;
+}
+.asterisk1{
+    color:red;
+}
+.info{
+    margin-right: 25px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 13px;
+}
+.emailaddress{
+    margin-left: 25px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-size: 15px;
+}
+.textbox{
+    margin-top: 8px;
+    margin-left: 25px;
+    width: 94%;
+    padding: 8px 0;
+}
+.b4-subscribe{
+    margin-top: 8px;
+    margin-left: 25px;
+    background-color: #aaa;
+    border: 0 none;
+    border-radius: 4px;
+    font-size: 15px;
+    font-weight: normal;
+    height: 32px;
+    padding: 0 22px;
+    text-align: center;
+    color:#FFFFFF
+}
+.seventh-container{
+    display:inline-flex;
+    width:100%;
+    height:320px;
+}
+.letter1{
+    
+    margin-top: 250px;
+    margin-left: 90px;
+    color: #292929a6;
+    font-family: barlow-extralight,barlow,sans-serif;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.tigerimg{
+    margin-top: 50px;
+    margin-left: 165px;
+    height:245px;
+}
+.eighth-container{
+    width:100%;
+    height:200px;
+   
+}
+.icons1 img{
+    border: 3px solid  rgba(248, 246, 246, 0.466);
+
+}
+.iconimg1{
+    margin-left: 125px;
+    
+}
+.iconimg10{
+    margin-right: 100px;
+}
+.footer{
+    padding:0;
+    margin:0;
+    display:inline-flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: space-around;
+    width:100%;
+    height: 71px;
+    border-top: #e7e5e559 ridge 3px;
+    background-color: #FFFFFF;
+    
+}
+.warranty{
+    margin-top:20px;
+    font-family: roboto-thin,roboto,sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgba(3, 3, 3, 0.726);
+    margin-left: 170px;
+}
+.terms{
+    margin-top:20px;
+    font-family: roboto-thin,roboto,sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgba(3, 3, 3, 0.726);
+}
+.privacy{
+    margin-top: 20px;
+    font-family: roboto-thin,roboto,sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+    color:rgba(3, 3, 3, 0.726);
+    margin-right: 170px;
+}
